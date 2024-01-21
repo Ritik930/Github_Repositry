@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Repositories</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-XXXXXX" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">GitHub Repositories</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ritik0987
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a href="#" id="addRepositoriesLink">Add Repository</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </li>
+                    <!-- Dark Mode Toggle moved to the header -->
+                    <li class="nav-item">
+                        <button class="nav-link dark-mode-toggle" id="darkModeToggle">Toggle Dark Mode</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Github Repositories</h1>
+
+        <!-- User Profile Section -->
+        <div class="user-profile-section">
+            <div class="user-photo">
+                <img src="E:\html\intenship\20220711013626__MG_3742.jpg" alt="User Photo" class="rounded-circle">
+            </div>
+            <div class="user-info">
+                <h4 class="mb-0">Ritik Kumar</h4>
+                <p class="mb-0">User ID: ritik0987</p>
+                <p class="mb-0">Address: near Hari mandir duhatand </p>
+                <p class="mb-0"><i class="fas fa-map-marker-alt"></i> Dhanbad</p>
+                <p class="mb-0">LinkedIn: <a href="https://www.linkedin.com/in/ritik-kumar-8376ba225" target="_blank">linkedin.com/in/ritik-kumar-8376ba225</a></p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Navigation Bar for Repositories -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">New +</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Dropdown for Repository Type -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Type
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">All</a></li>
+                                <li><a class="dropdown-item" href="#">Public</a></li>
+                                <li><a class="dropdown-item" href="#">Private</a></li>
+                                <li><a class="dropdown-item" href="#">Source</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Forks</a></li>
+                                <li><a class="dropdown-item" href="#">Archived</a></li>
+                                <li><a class="dropdown-item" href="#">Can be Sponsored</a></li>
+                                <li><a class="dropdown-item" href="#">Mirrors</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown for Repository Language -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">All</a></li>
+                                <li><a class="dropdown-item" href="#">HTML</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Python</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown for Repository Sort -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Sort
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Last Update</a></li>
+                                <li><a class="dropdown-item" href="#">Name</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Stars</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Search Form -->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Project Section -->
+        <br>
+         
+        <div class="project-section">
+            <div class="project-box">
+                <h2><a href="e-commerce">E-Commerce</a></h2>
+                <p>Creating a dynamic e-commerce platform with HTML, CSS, and JavaScript for seamless online shopping experiences.</p>
+                <div class="skills">
+                    <span class="badge badge-primary">JavaScript</span>
+                    <span class="badge badge-primary">HTML</span>
+                    <span class="badge badge-primary">CSS</span>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <h2><a href="E-Commerce II">E-commerce website 2</a></h2>
+                <p>Creating a dynamic e-commerce platform with HTML, CSS, JavaScript and php for seamless online shopping experiences</p>
+                <div class="skills">
+                    <span class="badge badge-primary">HTML</span>
+                    <span class="badge badge-primary">CSS</span>
+                    <span class="badge badge-primary">JS</span>
+                    <span class="badge badge-primary">php</span>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <h2><a href="Online-Job-Portal-master">Online job Portal</a></h2>
+                <p>Building an interactive online job portal with HTML, CSS, and JavaScript for seamless job searching and application processes.</p>
+                <div class="skills">
+                    <span class="badge badge-primary">HTML</span>
+                    <span class="badge badge-primary">CSS</span>
+                    <span class="badge badge-primary">JS</span>
+                    <span class="badge badge-primary">php</span>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <h2>Rain Prediction Using AI/ML</h2>
+                <p>Developing an AI/ML-based rain prediction system using historical weather data to enhance accuracy and provide timely forecasts.</p>
+                <div class="skills">
+                    <span class="badge badge-primary">ai/ml</span>
+                    <span class="badge badge-primary">Python</span>
+                </div>
+            </div>
+            
+            <div class="project-box">
+                <h2>Snake Game</h2>
+                <p>Creating a classic Snake game using Python for a fun and nostalgic gaming experience</p>
+                <div class="skills">
+                    <span class="badge badge-primary">Python</span>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <h2>Portfolio</h2>
+                <p>Description of our Achievement.</p>
+                <div class="skills">
+                    <span class="badge badge-primary">HTML</span>
+                    <span class="badge badge-primary">CSS</span>
+                    <span class="badge badge-primary">JS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Repository added successfully!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="newRepoModal" tabindex="-1" role="dialog" aria-labelledby="newRepoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="newRepoModalLabel">Add New Repository</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Form for adding a new repository -->
+                    <form id="newRepoForm">
+                        <div class="form-group">
+                            <label for="repoName">Repository Name</label>
+                            <input type="text" class="form-control" id="repoName" placeholder="Enter repository name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectDescription">Project Description</label>
+                            <textarea class="form-control" id="projectDescription" placeholder="Enter project description"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="skills">Skills</label>
+                            <input type="text" class="form-control" id="skills" placeholder="Enter skills (comma-separated)">
+                        </div>
+                        <button type="submit" class="btn btn-primary">submit!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="container">
+            <div class="page-switcher">
+                <button class="page-button" id="prevPage">Previous</button>
+                <span class="page-number">1</span>
+                <span class="page-number">2</span>
+                <!-- Add more page numbers up to 100 dynamically using JavaScript -->
+                <!-- For simplicity, this example shows only a few page numbers -->
+                <!-- You can dynamically generate these using a loop in your actual code -->
+                <!-- For demonstration, I'm using "..." for the ellipsis -->
+                <span class="page-number">...</span>
+                <span class="page-number">98</span>
+                <span class="page-number">99</span>
+                <span class="page-number">100</span>
+                <button class="page-button" id="nextPage">Next</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
